@@ -1,0 +1,22 @@
+{
+    "csv_headers": [
+        "UserName",
+        "FirstName",
+        "LastName",
+        "Email",
+        "EmployeeID",
+        "GroupCode",
+        "GroupTitle"
+    ],
+    "temp_pwd": "temp_pwd",
+    "send_access_email": false,
+    "access_email_args": {
+        "access_email_subject": "Access Email",
+        "access_email_message": "",
+		"access_email_pwdResetURL":"(SiteURL)Account/ResetPasswd?uid=(USERID)&amp;Token=(PASSWORD)"
+    },
+    "csv_file_args": {
+        "csv_file_location": "",
+        "csv_file_name": "employees1.csv"
+    }
+}
